@@ -2,22 +2,33 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 .hero-section {
-    background: url('./restaurant-hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px; /* Adjust height as needed */
-    color: #fff;
+    position: relative; 
+    height: 500px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.hero-section::before {
+    content: "";
+    background-image: url('./restaurant-hero.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+
 .hero-content {
     max-width: 600px;
     margin: 0 auto;
+    font-weight: bold;
+    
 }
 h1 {
     font-size: 3em;
@@ -25,5 +36,5 @@ h1 {
 }
 p {
     font-size: 1.2em;
-    color: blue;
+    
 }
