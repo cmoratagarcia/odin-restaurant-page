@@ -38,3 +38,31 @@ p {
     font-size: 1.2em;
     
 }
+
+.menu {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .menu-category > h2 {
+    color: rgb(83, 82, 82);
+    font-size: 1.8em;
+    margin-top: 50px;
+  }
+  h1 {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .dish {
+    margin-bottom: 20px;
+  }
+  .dish h2 {
+    margin-bottom: 5px;
+  }
+  .dish p {
+    margin: 5px 0;
+  }
