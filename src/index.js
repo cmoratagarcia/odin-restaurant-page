@@ -1,5 +1,5 @@
 import "./style.css";
-import homePage from "./homepage.js";
+import contact from "./contact.js";
 
-const container = document.getElementById("content");
-container.appendChild(homePage());
+const content = document.getElementById("content");
+content.appendChild(contact());
