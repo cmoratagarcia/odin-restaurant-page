@@ -2,58 +2,54 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(210, 216, 219);
+    background-image: url('./restaurant-hero.jpg');
+    background-size: cover;
 }
 
 nav {
-    display: grid;
-    grid-template: 70px/ repeat(3, 100px);
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     gap: 15px;
-    padding-top: 20px;;
+    background-color: rgb(210, 216, 219, 0.7);
+    position: sticky;
 }
 
 button {
-    width: 100px;
-    border-radius: 5px;
-    border: 3px solid darkgray;
-    border-bottom: 0;
-    font-size: 1.2em;
+    width: 120px;
+    border: none;
+    font-size: 1.4em;
+    background: none;
 
+}
+
+button:hover {
+    text-decoration: underline;
 }
 .hero-section {
-    position: relative; 
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    height: fit-content;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(210, 216, 219, 0.7);
 
-.hero-section::before {
-    content: "";
-    background-image: url('./restaurant-hero.jpg');
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.5;
 }
 
 .hero-content {
     font-weight: bold;
-    position: absolute;
+
    }
 
 h1 {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
 }
 
 p {
-    text-align: center;
     font-size: 1.2em;
     }
 
