@@ -4,6 +4,23 @@ body {
     padding: 0;
     background-color: rgb(210, 216, 219);
 }
+
+nav {
+    display: grid;
+    grid-template: 70px/ repeat(3, 100px);
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;;
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    border: 3px solid darkgray;
+    border-bottom: 0;
+    font-size: 1.2em;
+
+}
 .hero-section {
     position: relative; 
     height: 500px;
