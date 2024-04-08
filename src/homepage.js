@@ -1,5 +1,4 @@
 function homePage() {
-  const container = document.getElementById("content");
   const section = document.createElement("section");
   section.classList.add("hero-section");
 
@@ -10,9 +9,8 @@ function homePage() {
     "<p>Delicious food served with love.</p>";
 
   section.appendChild(heroContent);
-  container.appendChild(section);
 
-  return container;
+  return section;
 }
 
 export default homePage;
