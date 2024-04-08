@@ -32,44 +32,43 @@ button:hover {
     margin: auto;
     margin-top: 80px;
     padding: 20px;
-    height: fit-content;
+    height: 200px;
     width: 60%;
     text-align: center;
+    justify-content: center;
     background-color: rgb(210, 216, 219, 0.7);
-
 }
 
 .hero-content {
     font-weight: bold;
-
    }
 
-h1 {
+.hero-content  h1 {
     font-size: 3em;
-    margin: 0 0 20px 0;
 }
 
-p {
-    font-size: 1.2em;
+.hero-content p {
+    font-size: 1.8em;
     }
 
 .menu, .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-  }
+    text-align: center;
+    background-color: rgb(210, 216, 219, 0.7);
+   
+     }
 
   .menu-category > h2 {
-    color: rgb(83, 82, 82);
     font-size: 1.8em;
     margin-top: 50px;
   }
-  h1 {
-    text-align: center;
-  }
+ 
   ul {
     list-style-type: none;
     padding: 0;
+
   }
   .dish {
     margin-bottom: 20px;
@@ -79,4 +78,6 @@ p {
   }
   .dish p {
     margin: 5px 0;
+    font-size: 1.3em;
   }
+

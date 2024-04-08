@@ -5,7 +5,7 @@ function homePage() {
   const heroContent = document.createElement("div");
   heroContent.classList.add("hero-content");
   heroContent.innerHTML = `<h1>Welcome to Our Restaurant</h1> 
-    <p>Delicious food served with love.</p>`;
+    <p>Delicious food served with love</p>`;
 
   section.appendChild(heroContent);
 
